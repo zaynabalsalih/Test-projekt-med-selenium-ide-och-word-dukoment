@@ -1,0 +1,227 @@
+{
+  "id": "56a644c8-e69c-4894-b7c6-ae0f57f9b5ea",
+  "version": "2.0",
+  "name": "Test projekt Mailinator",
+  "url": "https://www.mailinator.com",
+  "tests": [{
+    "id": "33b262ca-ed92-4898-a2d1-0ad9ad3ac6b1",
+    "name": "Test 1",
+    "commands": [{
+      "id": "54bc780c-c7c5-426b-aaf0-d5373b55cb48",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5885abd6-1849-4b91-8655-34294baeb911",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5652badd-5c66-407f-9117-11322b09d11f",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "7eec909b-c8b8-47f3-9e7d-7c3fb1f8b1aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytp-large-play-button",
+      "targets": [
+        ["css=.ytp-large-play-button", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f03542e-0a14-431e-b593-b39965cee80d",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.ytp-exp-chapter-hover-effect > .ytp-progress-bar-padding",
+      "targets": [
+        ["css=.ytp-exp-chapter-hover-effect > .ytp-progress-bar-padding", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[30]/div/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[30]/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db4815da-b2f2-4ef4-94ad-d588653d0ee3",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.ytp-scrubber-pull-indicator",
+      "targets": [
+        ["css=.ytp-scrubber-pull-indicator", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[30]/div/div[2]/div[6]/div/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7615d814-31dc-4f35-bf85-4a5fadd28591",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytp-progress-bar",
+      "targets": [
+        ["css=.ytp-progress-bar", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[30]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[30]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba4fa90f-f876-4f2a-96a2-96fee0193c84",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytp-progress-bar",
+      "targets": [
+        ["css=.ytp-progress-bar", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[30]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[30]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4adc75e-9354-4e63-ab9e-2b5c1bf63cc7",
+      "comment": "'Test 1' ended with 1 error(s)/ Trying to find css=.ytp-scrubber-pull-indicator... Failed: 22:09:01 Implicit Wait timed out after 30000ms",
+      "command": "click",
+      "target": "css=.ytp-scrubber-pull-indicator",
+      "targets": [
+        ["css=.ytp-scrubber-pull-indicator", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[30]/div/div[2]/div[6]/div/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a36a9130-c5c4-46e0-9782-6ab4b47b1ac8",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.ytp-scrubber-pull-indicator",
+      "targets": [
+        ["css=.ytp-scrubber-pull-indicator", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[30]/div/div[2]/div[6]/div/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a48cb598-7255-4f15-8f4b-c5bc031074d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytp-progress-bar",
+      "targets": [
+        ["css=.ytp-progress-bar", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[30]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[30]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "918588eb-0081-4acc-92d9-4867f574c6b2",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.ytp-exp-chapter-hover-effect > .ytp-progress-bar-padding",
+      "targets": [
+        ["css=.ytp-exp-chapter-hover-effect > .ytp-progress-bar-padding", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[30]/div/div[2]/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b940a39b-e6fd-49f7-8779-ad34b483db0e",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.ytp-scrubber-pull-indicator",
+      "targets": [
+        ["css=.ytp-scrubber-pull-indicator", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[30]/div/div[2]/div[6]/div/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae3f0082-475f-4d6d-a9f2-ee12d5dea93a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytp-progress-bar",
+      "targets": [
+        ["css=.ytp-progress-bar", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[30]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[30]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fcdcfcb-ceea-459c-b2ad-2fe9e240a1f3",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.ytp-timed-markers-container",
+      "targets": [
+        ["css=.ytp-timed-markers-container", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[30]/div/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[30]/div/div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23f6c717-99bd-4479-9324-364e76abf27b",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.ytp-scrubber-pull-indicator",
+      "targets": [
+        ["css=.ytp-scrubber-pull-indicator", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[30]/div/div[2]/div[6]/div/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46566d88-85a9-4b17-a0bf-0ef53837da88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytp-progress-bar",
+      "targets": [
+        ["css=.ytp-progress-bar", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[30]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[30]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1d6ae49-3d20-41f4-a85a-60fe0b8439e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.video-stream",
+      "targets": [
+        ["css=.video-stream", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div/video", "xpath:idRelative"],
+        ["xpath=//video", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6f6440a-4fd3-454d-b5be-745adf1a60ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.video-stream",
+      "targets": [
+        ["css=.video-stream", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div/video", "xpath:idRelative"],
+        ["xpath=//video", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d69cc45-d2c6-45dd-bee2-ad16117e9e62",
+      "comment": "Jag vill testa om video av information fungerar som det ska.",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5c72a39c-4722-4792-ba24-ec6e3798fde5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["33b262ca-ed92-4898-a2d1-0ad9ad3ac6b1"]
+  }],
+  "urls": ["https://www.mailinator.com/"],
+  "plugins": []
+}
